@@ -289,3 +289,87 @@ header{
     transform: scale(1.5);
     transition: all 0.3s ease-in-out;
 }
+.tab{
+    width: 33.33%;
+    padding: 8px 0;
+    border-radius: 0;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+.tabs{
+    display: flex;
+}
+.tab:hover{
+    background: #333;
+}
+.tab-active{
+    background-color: #5d5d5d;
+}
+.number{
+    color: #fff;
+    font-weight: bold;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 15px;
+    background: #c58560;
+}
+.film-content a{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+}
+.film-content .count{
+    color: #BABABA;
+    font-size: 12px;
+    margin: 3px 0 0 0;
+    font-style: italic;
+}
+.film{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 8px 5px;
+}
+.film:nth-child(even){
+    background: rgb(24 24 24);
+}
+.decs{
+    width:700px;
+    padding: 10px 0px 20px 0px;
+}
+footer{
+    color: #848484;
+    background: #2d2d2d;
+}
+.decs p{
+    font-size: 12px;
+}
+.decs span{
+    color: #fff;
+    font-size: 12px;
+}
+.footer-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.info{
+    width: 260px;
+    background: #353535;
+    font-size: 11px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+.info-left span{
+    display: block;
+    margin-bottom: 5px;
+}
